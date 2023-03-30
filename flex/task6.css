@@ -1,0 +1,7 @@
+.div{width: 120px;  height: 1000px;}
+.div1{  display: flex; width: 800px; background-color: #a22fbe; color: wheat; font-size: x-large;}
+.div2{  display: flex; background-color: blue; flex-direction: column; width: 100px; color: wheat;}
+.div3{  display: flex; width: 800px;  width: 700px; flex-wrap: wrap;  }
+.dd{  display: flex; width: 900px;   flex-wrap: wrap; }
+.d2{display: flexbox; flex-direction: column; width: 600px; justify-content: space-between;}
+.div3 p { display: flex; flex-direction: column;width: 200px; justify-content: space-around;background-color: aliceblue; margin: 1em; text-align: center;}

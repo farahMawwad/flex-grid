@@ -1,0 +1,15 @@
+.div{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  border: 12px solid rgb(255, 0, 195);
+
+  background-color: rgb(65, 245, 41);
+
+width: 500px; height: 500px;
+}
+.h1 { 
+      background-color: greenyellow;
+      border : 15px solid rgb(128, 0, 0);
+        width: 200px; height: 200px;}
+        

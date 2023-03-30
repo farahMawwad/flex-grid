@@ -1,0 +1,15 @@
+div {
+ display: grid; 
+
+grid-template-columns:400px 400px 400px ;    
+grid-template-rows: 60px 100px 700px 60px;
+grid-template-areas: "header header header ""aside nav nav""  aside article article" "footer footer footer";
+gap: 1em;
+
+}
+.header{background-color: rgb(215, 234, 48 );  grid-area: header;  color: white; border-radius: 7px; text-align: center;}
+.header h1 {display: flex; justify-content: center;}
+.nav{background-color: rgb(52, 189, 243);grid-area: nav; color: white; border-radius: 7px; text-align: center;}
+.aside{background-color: rgb(243, 160, 52);grid-area: aside; color: white; border-radius: 7px; text-align: center;}
+.article{background-color: rgb(194, 227, 227); grid-area: article;color: white;  border-radius: 7px; text-align: center;}
+.footer{background-color: rgb(9, 9, 9);grid-area: footer ;color: white;border-radius: 7px;text-align: center; }
